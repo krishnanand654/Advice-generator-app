@@ -61,7 +61,7 @@ body{
 }
 
 .underline{
-    background-image: url("../images/pattern-divider-desktop.svg");
+    background-image: url(https://krishnanand654.github.io/Advice-generator-app/images/pattern-divider-desktop.svg);
     background-repeat: no-repeat;
     margin:25px 0 10px;
     background-position: center;
@@ -99,7 +99,7 @@ body{
     }
 
     .underline{
-        background-image: url("../images/pattern-divider-mobile.svg");
+        background-image: url(https://krishnanand654.github.io/Advice-generator-app/images/pattern-divider-mobile.svg);
     }
 
 
