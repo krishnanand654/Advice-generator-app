@@ -1,0 +1,115 @@
+
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+    font-family: 'Manrope', sans-serif;
+}
+
+.attribution { 
+    margin: 100px 0 0 ;
+    font-size: 11px;
+    text-align: center;
+    color:rgba(255, 255, 255, 0.386);
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+body{
+    background:hsl(217, 19%, 24%);
+}
+
+.card{
+    background-color: hsl(216, 24%, 32%);
+    width:500px;
+    height:auto;
+    border-radius: 10px; 
+}
+
+.card-ctn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.title-ctn{
+    display: flex;
+    justify-content: center;
+}
+
+.title{
+    margin:30px 0 30px;
+    color:hsl(150, 100%, 66%);
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 3px;
+}
+
+.desc{
+    text-align: center;
+    padding: 0 40px 0;
+    color:hsl(193, 38%, 86%);
+    font-weight: 600;
+}
+
+#ad{
+    font-size: 24px;    
+}
+
+.underline{
+    background-image: url("../images/pattern-divider-desktop.svg");
+    background-repeat: no-repeat;
+    margin:25px 0 10px;
+    background-position: center;
+}
+
+
+.btn{
+    background-color: hsl(150, 100%, 66%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:50px;
+    height: 50px;
+    border-radius: 100%;
+    cursor: pointer;
+   transition: all 0.5s ease-in-out;
+}
+
+.btn-ctn{
+    position: relative;
+    top:25px;
+    display: flex;
+    justify-content: center;
+}
+
+.btn:hover {
+    color: hsl(150, 100%, 66%);
+    box-shadow: 0  0 15px hsl(150, 100%, 66%);
+}
+
+@media screen and (max-width: 590px) {
+
+   .card{
+    width:370px;
+    }
+
+    .underline{
+        background-image: url("../images/pattern-divider-mobile.svg");
+    }
+
+
+
+}
+
+@media screen and (max-width: 376px) {
+
+    .card{
+        width:300px;
+        }
+    
+}
